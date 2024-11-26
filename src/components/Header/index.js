@@ -32,7 +32,7 @@ const Header = () => {
                       </li>
                       <li className="d-none d-lg-block">
                         <a href="https://buynsell.mchamp.xyz/listing">
-                          <i className="icon-feather-list" /> Find Ads
+                        <i class="bi bi-list-task"></i> Find Ads
                         </a>
                       </li>
                     </ul>
@@ -81,7 +81,7 @@ const Header = () => {
                           href="https://buynsell.mchamp.xyz/logout"
                           onclick="event.preventDefault(); document.getElementById('logout-form').submit();"
                         >
-                          <i className="icon-feather-log-out" /> Logout
+                          <i class="bi bi-box-arrow-in-right"></i> Logout
                         </a>
                       </li>
                     </ul>
