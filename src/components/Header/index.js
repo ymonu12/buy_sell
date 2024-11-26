@@ -32,7 +32,7 @@ const Header = () => {
                       </li>
                       <li className="d-none d-lg-block">
                         <a href="https://buynsell.mchamp.xyz/listing">
-                          <i className="icon-feather-list" /> Find Ads
+                          <i class="bi bi-list" /> Find Ads
                         </a>
                       </li>
                     </ul>

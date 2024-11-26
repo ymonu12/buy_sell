@@ -1,10 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import Layout from './Layout';
+import { Wrapper } from './Wrapper';
 
 function App() {
   return (
-   <Layout />
+    <>
+      <Wrapper />
+    </>
   );
 }
 
