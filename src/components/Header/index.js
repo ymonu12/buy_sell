@@ -3,9 +3,9 @@ import React from 'react'
 const Header = () => {
   return (
    <>
-   <header id="header-container" className="transparent">
+   <header id="header-container" className="transparent header-section">
             {/* Header */}
-            <div id="header">
+            <div id="header" className=''>
               <div className="container">
                 <div className="left-side">
                   <div id="logo">

@@ -24,3 +24,5 @@ a, li {
   text-decoration: none !important;
 }
 
+.header-section {position: static !important; }
+
