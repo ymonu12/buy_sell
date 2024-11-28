@@ -626,7 +626,7 @@ export default index
 
 
 
-// {/* <div className="col-lg-9 col-md-12">
+//  <div className="col-lg-9 col-md-12">
 // <div className="dashboard-box margin-top-0">
 //     <div className="content with-padding">
 //         <div className="row dashboard-profile">
@@ -685,4 +685,4 @@ export default index
 //         />
 //     </div>
 // </center>
-// </div> */}
+// </div> 

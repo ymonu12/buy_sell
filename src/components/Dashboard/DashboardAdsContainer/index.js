@@ -1,6 +1,9 @@
 import React from 'react'
+import { useLocation } from 'react-router-dom'
 
-const DashboardAdsContainer = ({title}) => {
+const DashboardAdsContainer = () => {
+    const path=useLocation().pathname.split('/');
+    const title=path[path.length-1];
     return (
         <div className="col-lg-9 col-md-12">
             <div className="dashboard-box margin-top-0">

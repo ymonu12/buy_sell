@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { Children } from 'react'
 
-const DashboardLayout = () => {
+const DashboardLayout = ({children}) => {
     return (
         <>
             <div id="titlebar" className="margin-bottom-0">
@@ -130,6 +130,7 @@ const DashboardLayout = () => {
                         </div>
 
                         {/* child will come here */}
+                        {children}
                     </div>
                 </div>
             </div>
